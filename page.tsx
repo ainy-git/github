@@ -1,10 +1,9 @@
-export default function home() {
-  return(
-    <div>
-      <h1>Hello World!</h1>
-      </div>
-
-  )
-  
+import Card from "./components/Card";
+export default function Home(){
+    return(
+        <div>
+            <h3>Hello Fiza</h3>
+            <Card/>
+        </div>
+    )
 }
-          
